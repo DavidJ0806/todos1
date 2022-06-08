@@ -1,0 +1,1 @@
+to start run `uvicorn main:app --reload`

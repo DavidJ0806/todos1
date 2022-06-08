@@ -21,4 +21,4 @@ def read_root():
 @app.get("/todos")
 def read_todos():
     return [{'id': 1, 'description': 'Clean the laundry', 'completed': False},
-    {'id': 2, 'description': 'Clean the dishes', 'completed': False}]
+    {'id': 2, 'description': 'Clean the dishes', 'completed': True}]
